@@ -50,21 +50,21 @@ alert(prueba + prueba2) - Resultado ==> NaN === Not a Number
 
     - Basicos
 
-        numero += 5;    - Esto es lo mismo que hacer ==> numero = numero + 5; (Suma).
-        numero -= 5;    - Esto es lo mismo que hacer ==> numero = numero - 5; (Resta).
-        numero *= 5;    - Esto es lo mismo que hacer ==> numero = numero * 5; (Multiplicación).
-        numero /= 5;    - Esto es lo mismo que hacer ==> numero = numero / 5; (Division).
+        - numero += 5;    - Esto es lo mismo que hacer ==> numero = numero + 5; (Suma).
+        - numero -= 5;    - Esto es lo mismo que hacer ==> numero = numero - 5; (Resta).
+        - numero *= 5;    - Esto es lo mismo que hacer ==> numero = numero * 5; (Multiplicación).
+        - numero /= 5;    - Esto es lo mismo que hacer ==> numero = numero / 5; (Division).
 
     - Avanzado (casi no se usa)
 
-        numero %= 5;    - Esto es lo mismo que hacer ==> numero = numero % 5; (Resto).
-        numero **= 5;   - Esto es lo mismo que hacer ==> numero = numero ** 5; (Exponenciación).
-        numero <<= 5;   - Esto es lo mismo que hacer ==> numero = numero << 5; (Desplazamiento a la izquierda).
-        numero >>= 5;   - Esto es lo mismo que hacer ==> numero = numero >> 5; (Desplazamiento a la derecha).
-        numero >>>= 5;  - Esto es lo mismo que hacer ==> numero = numero >>> 5; (Asignación sin signo desplazamiento a la derecha).
-        numero &= 5;    - Esto es lo mismo que hacer ==> numero = numero & 5; (AND).
-        numero ^= 5;    - Esto es lo mismo que hacer ==> numero = numero ^ 5; (XOR).
-        numero |= 5;    - Esto es lo mismo que hacer ==> numero = numero | 5; (OR).
+        - numero %= 5;    - Esto es lo mismo que hacer ==> numero = numero % 5; (Resto).
+        - numero **= 5;   - Esto es lo mismo que hacer ==> numero = numero ** 5; (Exponenciación).
+        - numero <<= 5;   - Esto es lo mismo que hacer ==> numero = numero << 5; (Desplazamiento a la izquierda).
+        - numero >>= 5;   - Esto es lo mismo que hacer ==> numero = numero >> 5; (Desplazamiento a la derecha).
+        - numero >>>= 5;  - Esto es lo mismo que hacer ==> numero = numero >>> 5; (Asignación sin signo desplazamiento a la derecha).
+        - numero &= 5;    - Esto es lo mismo que hacer ==> numero = numero & 5; (AND).
+        - numero ^= 5;    - Esto es lo mismo que hacer ==> numero = numero ^ 5; (XOR).
+        - numero |= 5;    - Esto es lo mismo que hacer ==> numero = numero | 5; (OR).
 
 alert(numero);
 
@@ -79,15 +79,15 @@ alert(numero);
 
     - Basicos
 
-        resultado = numero1 + numero2   -Adición ==> Realizar una suma.
-        numero1--                       -Decremento ==> Restar 1 a numero1.
-        numero1++                       -Incremento ==> Sumar 1 a numero1.
-        resultado = numero1 & numero2   -Resto ==> Divide los 2 números y devuelve el resto de la división.
-        resultado = numero1 - numero2   -Sustraccion ==> Realiza una resta.
+        - resultado = numero1 + numero2   -Adición ==> Realizar una suma.
+        - numero1--                       -Decremento ==> Restar 1 a numero1.
+        - numero1++                       -Incremento ==> Sumar 1 a numero1.
+        - resultado = numero1 & numero2   -Resto ==> Divide los 2 números y devuelve el resto de la división.
+        - resultado = numero1 - numero2   -Sustraccion ==> Realiza una resta.
 
     - Avanzado (no se usa)
 
-        resultado = -numero1            - Negación unaria ==> Contrario del numero1(valor === 10) ==> -numero1(valor === -10).
+        - resultado = -numero1            - Negación unaria ==> Contrario del numero1(valor === 10) ==> -numero1(valor === -10).
 
 alert(resultado);
 
