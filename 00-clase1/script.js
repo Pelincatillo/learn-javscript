@@ -70,6 +70,7 @@ if (dineroPedro >= 0.6 && dineroPedro < 1){
 // Cofla
 
 let vuelta = null;
+dineroCofla = parseInt(dineroCofla);
 
 if (dineroCofla >= 0.6 && dineroCofla < 1){
     alert('Cofla puedes comprar el helado de agua');
