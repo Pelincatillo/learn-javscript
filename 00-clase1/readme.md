@@ -1,9 +1,9 @@
 
 - Datos primitivos
 
-    String = "cadena de texto";
-    Number = 19;
-    Boolean = false;
+    - String = "cadena de texto";
+    - Number = 19;
+    - Boolean = false;
 
 
 ----------------------------------------------------------------------------------------------------------------------------
