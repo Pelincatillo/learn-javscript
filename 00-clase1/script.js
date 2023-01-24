@@ -32,6 +32,7 @@ let dineroPedro = prompt('¿Cuanto dinero tienes Pedro?');
 let dineroCofla = prompt('¿Cuanto dinero tienes Cofla?');
 
 // Roberto
+
 if (dineroRoberto >= 0.6 && dineroRoberto < 1){
     alert('Roberto puedes comprar el helado de agua');
 } else if (dineroRoberto >= 1 && dineroRoberto < 1.6) {
@@ -67,6 +68,7 @@ if (dineroPedro >= 0.6 && dineroPedro < 1){
 }
 
 // Cofla
+
 if (dineroCofla >= 0.6 && dineroCofla < 1){
     alert('Cofla puedes comprar el helado de agua');
     let vuelta = dineroCofla - 0.6;
