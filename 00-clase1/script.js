@@ -31,16 +31,66 @@ let dineroRoberto = prompt('¿Cuanto dinero tienes Roberto?');
 let dineroPedro = prompt('¿Cuanto dinero tienes Pedro?');
 let dineroCofla = prompt('¿Cuanto dinero tienes Cofla?');
 
+// Roberto
+if (dineroRoberto >= 0.6 && dineroRoberto < 1){
+    alert('Roberto puedes comprar el helado de agua');
+} else if (dineroRoberto >= 1 && dineroRoberto < 1.6) {
+    alert('Roberto puedes comprar el helado de crema');
+} else if (dineroRoberto >= 1.6 && dineroRoberto < 1.7) {
+    alert('Roberto puedes comprar el bombón de helado marca heladix');
+} else if (dineroRoberto >= 1.7 && dineroRoberto < 1.8) {
+    alert('Roberto puedes comprar el bombón de helado marca heladovich');
+} else if (dineroRoberto >= 1.8 && dineroRoberto < 2.9) {
+    alert('Roberto puedes comprar el bombón helado marca helardo');
+} else if (dineroRoberto >= 2.9) {
+    alert('Roberto puedes comprar el potecito de heldo con confites o el pote de 1/4 KG');
+} else {
+    alert('Roberto no tienes dinero suficiente para comprar un helado');
+}
+
+// Pedro
+
+if (dineroPedro >= 0.6 && dineroPedro < 1){
+    alert('Pedro puedes comprar el helado de agua');
+} else if (dineroPedro >= 1 && dineroPedro < 1.6) {
+    alert('Pedro puedes comprar el helado de crema');
+} else if (dineroPedro >= 1.6 && dineroPedro < 1.7) {
+    alert('Pedro puedes comprar el bombón de helado marca heladix');
+} else if (dineroPedro >= 1.7 && dineroPedro < 1.8) {
+    alert('Pedro puedes comprar el bombón de helado marca heladovich');
+} else if (dineroPedro >= 1.8 && dineroPedro < 2.9) {
+    alert('Pedro puedes comprar el bombón helado marca helardo');
+} else if (dineroPedro >= 2.9) {
+    alert('Pedro puedes comprar el potecito de heldo con confites o el pote de 1/4 KG');
+} else {
+    alert('Pedro no tienes dinero suficiente para comprar un helado');
+}
+
+// Cofla
 if (dineroCofla >= 0.6 && dineroCofla < 1){
-    alert('Puedes comprar el helado de agua');
+    alert('Cofla puedes comprar el helado de agua');
+    let vuelta = dineroCofla - 0.6;
+    alert(`Las vueltas de cofla son $${vuelta} USD`)
 } else if (dineroCofla >= 1 && dineroCofla < 1.6) {
-    alert('Puedes comprar el helado de crema');
+    alert('Cofla puedes comprar el helado de crema');
+    let vuelta = dineroCofla - 1;
+    alert(`Las vueltas de cofla son $${vuelta} USD`)
 } else if (dineroCofla >= 1.6 && dineroCofla < 1.7) {
-    alert('Puedes comprar el bombón de helado marca heladix');
+    alert('Cofla puedes comprar el bombón de helado marca heladix');
+    let vuelta = dineroCofla - 1.6;
+    alert(`Las vueltas de cofla son $${vuelta} USD`)
 } else if (dineroCofla >= 1.7 && dineroCofla < 1.8) {
-    alert('Puedes comprar el bombón de helado marca heladovich');
+    alert('Cofla puedes comprar el bombón de helado marca heladovich');
+    let vuelta = dineroCofla - 1.7;
+    alert(`Las vueltas  de cofla son $${vuelta} USD`)
 } else if (dineroCofla >= 1.8 && dineroCofla < 2.9) {
-    alert('Puedes comprar el bombón helado marca helardo');
-} else{
-    alert('Puedes comprar el potecito de heldo con confites y el pote de 1/4 KG');
+    alert('Cofla puedes comprar el bombón helado marca helardo');
+    let vuelta = dineroCofla - 1.8;
+    alert(`Las vueltas de cofla son $${vuelta} USD`)
+} else if (dineroCofla >= 2.9) {
+    alert('Cofla puedes comprar el potecito de heldo con confites o el pote de 1/4 KG');
+    let vuelta = dineroCofla - 2.9;
+    alert(`Las vueltas de cofla son $${vuelta} USD`)
+} else {
+    alert('Cofla no tienes dinero suficiente para comprar un helado');
 }
